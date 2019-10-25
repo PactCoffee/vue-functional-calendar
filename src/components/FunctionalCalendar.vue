@@ -133,8 +133,8 @@
 </template>
 
 <script>
-    import helpCalendar from '../assets/js/calendar'
-    import {propsAndData} from "../mixins/propsAndData";
+    import helpCalendar from '../assets/js/calendar.js'
+    import {propsAndData} from "../mixins/propsAndData.js";
     import TimePicker from "./TimePicker";
 
     export default {
