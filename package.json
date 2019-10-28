@@ -51,7 +51,7 @@
     "build": "vue-cli-service build",
     "test": "npm run build",
     "build-bundle": "vue-cli-service build --target lib --name vueFunctionalCalendar ./index.js",
-    "install": "/node_modules/vue-cli-service build --target lib --name vueFunctionalCalendar ./index.js",
+    "install": "./node_modules/.bin/vue-cli-service build --target lib --name vueFunctionalCalendar ./index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
